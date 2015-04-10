@@ -8,7 +8,7 @@ Installation
 
 Clone this repo.
 
-Then, create a `config.js` file in the project root that contains [Twitter API keys](https://apps.twitter.com/) and [Wordnik API key](http://developer.wordnik.com/). Example:
+Then, create a `config.js` file in the project root that contains [Twitter API keys](https://apps.twitter.com/). Example:
 
     module.exports = {
       twitter: {
@@ -16,8 +16,7 @@ Then, create a `config.js` file in the project root that contains [Twitter API k
         consumer_secret: 'asdfasdjfbkjqwhbefubvskjhfbgasdjfhgaksjdhfgaksdxvc',
         access_token: '9999999999-zxcvkljhpoiuqwerkjhmnb,mnzxcvasdklfhwer',
         access_token_secret: 'opoijkljsadfbzxcnvkmokwertlknfgmoskdfgossodrh'
-      },
-      wordnikAPIKey: 'mkomniojnnuibiybvuytvutrctrxezewarewetxyfcftvuhbg'
+      }
     };
 
 Usage
