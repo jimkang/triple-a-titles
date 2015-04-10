@@ -1,9 +1,6 @@
 HOMEDIR = $(shell pwd)
 GITDIR = /var/repos/triple-a-titles.git
 
-test:
-	node tests/basictests.js
-
 run:
 	node post-triple-a-title.js
 
