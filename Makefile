@@ -1,6 +1,5 @@
 HOMEDIR = $(shell pwd)
-GITDIR = /var/repos/yet-another-module.git
-PM2 = $(HOMEDIR)/node_modules/pm2/bin/pm2
+GITDIR = /var/repos/triple-a-titles.git
 
 test:
 	node tests/basictests.js

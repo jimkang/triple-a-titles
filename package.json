@@ -1,5 +1,5 @@
 {
-  "name": "yet-another-module",
+  "name": "triple-a-titles",
   "version": "1.0.0",
   "description": "Does some cool things.",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jimkang/yet-another-module.git"
+    "url": "git@github.com:jimkang/triple-a-titles.git"
   },
   "keywords": [],
   "author": "Jim Kang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimkang/yet-another-module/issues"
+    "url": "https://github.com/jimkang/triple-a-titles/issues"
   },
-  "homepage": "https://github.com/jimkang/yet-another-module",
+  "homepage": "https://github.com/jimkang/triple-a-titles",
   "devDependencies": {
     "tape": "^3.0.3"
   },
