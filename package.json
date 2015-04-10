@@ -27,6 +27,7 @@
     "lodash": "^3.6.0",
     "probable": "^1.4.0",
     "seedrandom": "^2.3.11",
+    "titlecase": "^1.0.2",
     "twit": "^1.1.20"
   }
 }

@@ -44,7 +44,6 @@ function postTweet(text) {
         else {
           console.log('Posted to Twitter:', text);
         }
-        done(error);
       }
     );
   }

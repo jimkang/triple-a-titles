@@ -1,8 +1,12 @@
 var _ = require('lodash');
+var toTitleCase = require('titlecase');
 
 function assembleGroupsIntoTitle(groups) {
   var subtitles = groups.map(assembleGroupIntoSubtitle);
-  return subtitles.join(' ');
+  var title = subtitles.join(' ');
+  // Hack.
+  title = title.replace(' : ', ': ');
+  return toTitleCase(title);
 }
 
 var groupPropertiesInOrder = [
