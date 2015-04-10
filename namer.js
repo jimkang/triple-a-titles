@@ -70,7 +70,7 @@ function createNamer(opts) {
       probable.pickFromArray(_.without(wordsForTypes.prefix, group.base));
 
     if (wordPool[group.prefix].indexOf('cannotbeprefixed') === -1 &&
-      probable.roll(2) === 0) {
+      probable.roll(5) < 2) {
 
       group.preprefix = probable.pickFromArray(
         _.without(wordsForTypes.prefix, group.base, group.prefix)

@@ -1,7 +1,8 @@
 {
   "ops": [
     "base",
-    "suffix"
+    "suffix",
+    "cannotattachsuffix"
   ],
   "squadron": [
     "base",
@@ -44,17 +45,20 @@
   "warfare": [
     "base",
     "of-object",
-    "suffix"
+    "suffix",
+    "cannotattachsuffix"
   ],
   "call": [
     "base",
-    "article-object"
+    "article-object",
+    "cannotattachsuffix"
   ],
   "survival": [
     "base",
     "prefix",
     "suffix",
-    "article-object"
+    "article-object",
+    "cannotattachsuffix"
   ],
   "vault": [
     "base",
@@ -92,7 +96,8 @@
   ],
   "pre-sequel": [
     "base",
-    "article-object"
+    "article-object",
+    "cannotattachsuffix"
   ],
   "ultimate": [
     "base",
@@ -107,7 +112,8 @@
   "hardline": [
     "base",
     "suffix",
-    "article-object"
+    "article-object",
+    "cannotattachsuffix"
   ],
   "far": [
     "prefix",
@@ -117,7 +123,8 @@
     "base",
     "suffix",
     "article-object",
-    "of-object"
+    "of-object",
+    "cannotattachsuffix"
   ],
   "orbital": [
     "prefix"
@@ -143,7 +150,8 @@
   "principle": [
     "article-object",
     "of-object",
-    "base"
+    "base",
+    "cannotattachsuffix"
   ],
   "special": [
     "cannotbeprefixed",
@@ -178,11 +186,8 @@
     "prefix",
     "suffix"
   ],
-  "obsidian": [
-    "of-object",
-    "article-object",
-    "prefix",
-    "suffix"
+  "ebon": [
+    "prefix"
   ],
   "zero": [
     "base",
@@ -224,7 +229,8 @@
   ],
   "complex": [
     "base",
-    "article-object"
+    "article-object",
+    "cannotattachsuffix"
   ],
   "sith": [
     "base",
@@ -468,6 +474,12 @@
   "collection": [
     "ordinal"
   ],
+  "collector's edition": [
+    "ordinal"
+  ],
+  "director's cut": [
+    "ordinal"
+  ],
   "night": [
     "attached-suffix",
     "suffix",
@@ -507,6 +519,12 @@
     "article-object",
     "prefix"
   ],
+  "protocol": [
+    "base",
+    "suffix",
+    "article-object",
+    "cannotattachsuffix"
+  ],
   "land": [
     "attached-suffix"
   ],
@@ -537,6 +555,11 @@
     "base",
     "suffix",
     "prefix",
+    "of-object"    
+  ],
+  "justice": [
+    "base",
+    "suffix",
     "of-object"    
   ],
   "beyond": [
@@ -632,6 +655,29 @@
     "suffix",
     "cannotattachsuffix",
     "of-object",
+    "article-object"
+  ],
+  "insurrection": [
+    "base",
+    "suffix",
+    "cannotattachsuffix",
+    "article-object"
+  ],
+  "uprising": [
+    "base",
+    "suffix",
+    "cannotattachsuffix",
+    "article-object"
+  ],
+  "down": [
+    "base",
+    "suffix",
+    "attached-suffix"
+  ],
+  "revolution": [
+    "base",
+    "suffix",
+    "cannotattachsuffix",
     "article-object"
   ]
 }
