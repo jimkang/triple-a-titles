@@ -1,0 +1,405 @@
+{
+  "ops": [
+    "base",
+    "suffix"
+  ],
+  "squadron": [
+    "base",
+    "suffix",
+    "article-object"
+  ],
+  "troopers": [
+    "base",
+    "suffix",
+    "article-object",
+    "cannotattachsuffix"
+  ],
+  "marines": [
+    "base",
+    "suffix",
+    "cannotattachsuffix"
+  ],
+  "batallion": [
+    "base",
+    "suffix",
+    "article-object"
+  ],
+  "force": [
+    "base",
+    "suffix",
+    "prefix"
+  ],
+  "war": [
+    "base",
+    "of-object",
+    "prefix",
+    "suffix",
+    "article-object"
+  ],
+  "warfare": [
+    "base",
+    "of-object",
+    "suffix"
+  ],
+  "call": [
+    "base",
+    "article-object"
+  ],
+  "survival": [
+    "base",
+    "prefix",
+    "suffix",
+    "article-object"
+  ],
+  "vault": [
+    "base",
+    "prefix",
+    "article-object"
+  ],
+  "hunter": [
+    "base",
+    "prefix",
+    "suffix",
+    "article-object"
+  ],
+  "stalker": [
+    "base",
+    "prefix",
+    "suffix",
+    "article-object"
+  ],
+  "assassin": [
+    "base",
+    "prefix",
+    "suffix",
+    "article-object"
+  ],
+  "battle": [
+    "base",
+    "prefix",
+    "suffix",
+    "of-object",
+    "article-object"
+  ],
+  "advanced": [
+    "prefix",
+    "cannotbeprefixed"
+  ],
+  "pre-sequel": [
+    "base",
+    "article-object"
+  ],
+  "ultimate": [
+    "base",
+    "prefix",
+    "cannotbeprefixed",
+    "suffix",
+    "cannotattachsuffix"    
+  ],
+  "hard": [
+    "prefix"
+  ],
+  "hardline": [
+    "base",
+    "suffix",
+    "article-object"
+  ],
+  "far": [
+    "prefix",
+    "cannotbeprefixed"
+  ],
+  "cry": [
+    "base",
+    "suffix",
+    "article-object",
+    "of-object"
+  ],
+  "valley": [
+    "base",
+    "suffix",
+    "article-object",
+    "of-object"
+  ],
+  "orbital": [
+    "prefix"
+  ],
+  "breath": [
+    "base",
+    "article-object",
+    "of-object"
+  ],
+  "evolution": [
+    "base",
+    "suffix",
+    "of-object"
+  ],
+  "duty": [
+    "of-object",
+    "base",
+    "suffix"
+  ],
+  "megaton": [
+    "prefix"
+  ],
+  "principle": [
+    "article-object",
+    "of-object",
+    "base"
+  ],
+  "special": [
+    "cannotbeprefixed",
+    "prefix"
+  ],
+  "shadow": [
+    "base",
+    "of-object",
+    "article-object",
+    "prefix",
+    "suffix"
+  ],
+  "darkness": [
+    "base",
+    "of-object",
+    "article-object"
+  ],
+  "dark": [
+    "prefix",
+    "suffix"
+  ],
+  "master": [
+    "base",
+    "of-object",
+    "article-object",
+    "prefix",
+    "suffix"
+  ],
+  "black": [
+    "of-object",
+    "article-object",
+    "prefix",
+    "suffix"
+  ],
+  "zero": [
+    "base",
+    "prefix",
+    "suffix"
+  ],
+  "infinity": [
+    "base",
+    "prefix",
+    "suffix"
+  ],
+  "shoot": [
+    "base",
+    "of-object",
+    "suffix"
+  ],
+  "gun": [
+    "base",
+    "of-object",
+    "article-object",
+    "suffix",
+    "attached-suffix"
+  ],  
+  "grim": [
+    "prefix"
+  ],
+  "blood": [
+    "base",
+    "of-object",
+    "article-object",
+    "prefix",
+    "suffix"
+  ],
+  "gears": [
+    "base",
+    "of-object",
+    "article-object"
+  ],
+  "complex": [
+    "base",
+    "article-object"
+  ],
+  "sith": [
+    "base",
+    "article-object",
+    "of-object",
+    "prefix",
+    "suffix"
+  ],
+  "jedi": [
+    "base",
+    "article-object",
+    "of-object",
+    "prefix",
+    "suffix"
+  ],
+  "outcast": [
+    "base",
+    "article-object",
+    "prefix",
+    "suffix"
+  ],
+  "warrior": [
+    "base",
+    "article-object",
+    "suffix"
+  ],
+  "elite": [
+    "prefix",
+    "suffix"
+  ],
+  "redux": [
+    "ordinal"
+  ],
+  "final": [
+    "ordinal",
+    "prefix"    
+  ],
+  "penultimate": [
+    "ordinal"
+  ],
+  "destiny": [
+    "base",
+    "article-object",
+    "of-object",
+    "prefix",
+    "suffix"
+  ],
+  "blade": [
+    "base",
+    "suffix",
+    "article-object",
+    "of-object"
+  ],
+  "fall": [
+    "attached-suffix"
+  ],
+  "zone": [
+    "attached-suffix",
+    "base",
+    "suffix",
+    "article-object"
+  ],
+  "enemy": [
+    "prefix",
+    "suffix"
+  ],
+  "front": [
+    "base"
+  ],
+  "new": [
+    "prefix",
+    "cannotbeprefixed"
+  ],
+  "order": [
+    "base",
+    "article-object",
+    "of-object",
+    "suffix"
+  ],
+  "silent": [
+    "prefix"
+  ],
+  "scope": [
+    "base",
+    "suffix"
+  ],
+  "blast": [
+    "attached-suffix",
+    "suffix",
+    "prefix"
+  ],
+  "chief": [
+    "base"
+  ],
+  "ghost": [
+    "prefix"
+  ],
+  "heavy": [
+    "prefix"
+  ],
+  "rain": [
+    "base"
+  ],
+  "bullets": [
+    "base" 
+  ],
+  "strike": [
+    "base",
+    "prefix",
+    "attached-suffix",
+    "suffix"
+  ],
+  "demon": [
+    "prefix"
+  ],
+  "shock": [
+    "prefix",
+    "attached-suffix",
+    "suffix",
+    "base",
+    "of-object"
+  ],
+  "online": [
+    "suffix"
+  ],
+  "gate": [
+    "base",
+    "of-object",
+    "article-object"
+  ],
+  "face": [
+    "base",
+    "article-object",
+    "attached-suffix",
+    "suffix"
+  ],
+  "head": [
+    "attached-suffix",
+    "suffix"
+  ],
+  "field": [
+    "attached-suffix"
+  ],
+  "dead": [
+    "base",
+    "article-object",
+    "of-object",
+    "prefix",
+    "suffix"
+  ],
+  "trigger": [
+    "suffix",
+    "attached-suffix",
+    "base"
+  ],
+  "alien": [
+    "prefix"
+  ],
+  "rage": [
+    "base",
+    "of-object",
+    "prefix",
+    "suffix",
+    "attached-suffix"
+  ],
+  "red": [
+    "prefix",
+    "suffix"
+  ],
+  "rising": [
+    "suffix"
+  ],
+  "storm": [
+    "base",
+    "of-object",
+    "article-object",
+    "suffix",
+    "attached-suffix"
+  ],
+  "tactics": [
+    "base",
+    "suffix"
+  ]
+}
