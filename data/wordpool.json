@@ -184,10 +184,17 @@
     "prefix",
     "suffix"
   ],
+  "obsidian": [
+    "of-object",
+    "article-object",
+    "prefix",
+    "suffix"
+  ],
   "zero": [
     "base",
     "prefix",
-    "suffix"
+    "suffix",
+    "cannotattachsuffix"
   ],
   "infinity": [
     "base",
@@ -250,6 +257,12 @@
     "article-object",
     "suffix"
   ],
+  "sniper": [
+    "base",
+    "article-object",
+    "suffix",
+    "prefix"
+  ],
   "elite": [
     "prefix",
     "suffix"
@@ -275,9 +288,19 @@
     "base",
     "suffix",
     "article-object",
+    "of-object",
+    "attached-suffix"
+  ],
+  "sword": [
+    "base",
+    "suffix",
+    "article-object",
     "of-object"
   ],
   "fall": [
+    "attached-suffix"
+  ],
+  "bound": [
     "attached-suffix"
   ],
   "zone": [
@@ -413,5 +436,143 @@
   "rondo": [
     "base",
     "of-object"
+  ],
+  "synchronicity": [
+    "base",
+    "suffix",
+    "cannotattachsuffix"
+  ],
+  "combat": [
+    "base",
+    "prefix",
+    "suffix",
+    "of-object"
+  ],
+  "kombat": [
+    "base",
+    "prefix",
+    "suffix",
+    "of-object"
+  ],
+  "remastered": [
+    "ordinal"
+  ],
+  "ascendance": [
+    "base",
+    "suffix",
+    "article-object"
+  ],
+  "prison": [
+    "base",
+    "suffix",
+    "prefix"
+  ],
+  "evolved": [
+    "ordinal"
+  ],
+  "collection": [
+    "ordinal"
+  ],
+  "night": [
+    "attached-suffix",
+    "suffix",
+    "base",
+    "of-object",
+    "article-object"
+  ],
+  "armed": [
+    "suffix",
+    "prefix",
+    "cannotattachsuffix"
+  ],
+  "pit": [
+    "suffix",
+    "base",
+    "prefix",
+    "article-object"
+  ],
+  "EX": [
+    "ordinal"
+  ],
+  "attack": [
+    "base",
+    "prefix",
+    "suffix",
+    "article-object"
+  ],
+  "verse": [
+    "attached-suffix"
+  ],
+  "prophecy": [
+    "base",
+    "suffix",
+    "article-object",
+    "prefix"
+  ],
+  "land": [
+    "attached-suffix"
+  ],
+  "broken": [
+    "prefix",
+    "suffix"
+  ],
+  "blitz": [
+    "suffix",
+    "attached-suffix"
+  ],
+  "carnage": [
+    "suffix",
+    "base",
+    "of-object"
+  ],
+  "revengenance": [
+    "base",
+    "suffix",
+    "of-object"
+  ],
+  "revengeance": [
+    "base",
+    "suffix",
+    "of-object"
+  ],
+  "vengeance": [
+    "base",
+    "suffix",
+    "prefix",
+    "of-object"    
+  ],
+  "beyond": [
+    "ordinal"
+  ],
+  "reloaded": [
+    "ordinal"
+  ],
+  "judgment": [
+    "base",
+    "suffix",
+    "prefix"
+  ],
+  "day": [
+    "base"
+  ],
+  "god": [
+    "base",
+    "prefix",
+    "suffix"
+  ],
+  "devils": [
+    "base",
+    "suffix"
+  ],
+  "X": [
+    "base",
+    "suffix",
+    "cannotattachsuffix"
+  ],
+  "2015": [
+    "ordinal"
+  ],
+  "2016": [
+    "ordinal"
   ]
 }

@@ -133,6 +133,10 @@ function createNamer(opts) {
     else {
       group.ordinal = 2 + probable.roll(4);
     }
+
+    if (probable.roll(5) < 2) {
+      group.ordinal += ' ' + probable.pickFromArray(wordsForTypes.ordinal);
+    }
     return group;
   }
 
