@@ -131,7 +131,7 @@ function createNamer(opts) {
       group.ordinal = probable.pickFromArray(wordsForTypes.ordinal);
     }
     else {
-      group.ordinal = 2 + probable.roll(4);
+      group.ordinal = probable.pickFromArray(wordsForTypes['numeric-ordinal']);
     }
 
     if (probable.roll(5) < 2) {

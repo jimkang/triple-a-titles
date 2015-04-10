@@ -119,12 +119,6 @@
     "article-object",
     "of-object"
   ],
-  "valley": [
-    "base",
-    "suffix",
-    "article-object",
-    "of-object"
-  ],
   "orbital": [
     "prefix"
   ],
@@ -339,7 +333,8 @@
     "prefix"
   ],
   "chief": [
-    "base"
+    "base",
+    "cannotattachsuffix"
   ],
   "ghost": [
     "prefix"
@@ -491,6 +486,9 @@
     "prefix",
     "article-object"
   ],
+  "trench": [
+    "prefix"
+  ],
   "EX": [
     "ordinal"
   ],
@@ -570,9 +568,70 @@
     "cannotattachsuffix"
   ],
   "2015": [
-    "ordinal"
+    "numeric-ordinal"
   ],
   "2016": [
-    "ordinal"
+    "numeric-ordinal"
+  ],
+  "iron": [
+    "prefix"
+  ],
+  "steel": [
+    "prefix",
+    "suffix"
+  ],
+  "vector": [
+    "base",
+    "suffix",
+    "article-object"
+  ],
+  "cell": [
+    "base",
+    "suffix"    
+  ],
+  "2": [
+    "numeric-ordinal"
+  ],
+  "3": [
+    "numeric-ordinal"
+  ],
+  "4": [
+    "numeric-ordinal"
+  ],
+  "5": [
+    "numeric-ordinal"
+  ],
+  "6": [
+    "numeric-ordinal"
+  ],
+  "7": [
+    "numeric-ordinal"
+  ],
+  "8": [
+    "numeric-ordinal"
+  ],
+  "II": [
+    "numeric-ordinal"
+  ],
+  "III": [
+    "numeric-ordinal"
+  ],
+  "scrolls": [
+    "base",
+    "cannotattachsuffix",
+    "suffix"
+  ],
+  "evil": [
+    "base",
+    "prefix",
+    "suffix",
+    "of-object"
+  ],
+  "tears": [
+    "base",
+    "suffix",
+    "cannotattachsuffix",
+    "of-object",
+    "article-object"
   ]
 }
