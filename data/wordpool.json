@@ -14,6 +14,11 @@
     "article-object",
     "cannotattachsuffix"
   ],
+  "heroes": [
+    "base",
+    "suffix",
+    "cannotattachsuffix"
+  ],
   "marines": [
     "base",
     "suffix",
@@ -401,5 +406,12 @@
   "tactics": [
     "base",
     "suffix"
+  ],
+  "supreme": [
+    "suffix"
+  ],
+  "rondo": [
+    "base",
+    "of-object"
   ]
 }
