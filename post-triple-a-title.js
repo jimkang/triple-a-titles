@@ -1,9 +1,8 @@
 var config = require('./config');
 var callBackOnNextTick = require('conform-async');
-var createNamer = require('./namer').create;
+var createNamer = require('triple-a-namer');
 var createProbable = require('probable').createProbable;
 var seedrandom = require('seedrandom');
-var assembleGroupsIntoTitle = require('./assemble-groups-into-title');
 var Twit = require('twit');
 
 var dryRun = false;
@@ -22,7 +21,7 @@ var namer = createNamer({
 
 var nameGroups = namer.name();
 console.log(nameGroups);
-var title = assembleGroupsIntoTitle(nameGroups);
+var title = namer.assembleGroupsIntoTitle(nameGroups);
 
 var twit = new Twit(config.twitter);
 

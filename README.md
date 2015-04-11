@@ -6,7 +6,7 @@ A bot that creates AAA game titles.
 Installation
 ------------
 
-Clone this repo.
+Clone this repo, then run `npm install`.
 
 Then, create a `config.js` file in the project root that contains [Twitter API keys](https://apps.twitter.com/). Example:
 
@@ -26,25 +26,14 @@ Usage
 
 You can experiment with it on the command line by running:
 
-    node tools/run-namer.js
+    node node_modules/triple-a-namer/tools/run-namer.js
 
 Structure
 ---------
 
-**data/wordpool.json** is a dictionary of words. The value for each word is a list of roles that the word can play in the title. e.g.
+The work of generating the names is all done in [triple-a-namer](https://github.com/jimkang/triple-a-namer). Take a look; it's a simple module.
 
-    [
-      "base",
-      "suffix",
-      "article-object"
-    ]
-
-**namer.js** Loads `wordpool.json` and creates a reverse-indexed dictionary of it, `wordsForTypes` so that it can find words of a type, such as `prefix`. Then, it creates 1-2 word groups, each of which starts with a base, then may add one or two prefixes and a suffix. Then, it sprinkles in "the" or "of" and maybe an ordinal, like "2".
-
-**assemble-groups-into-title** converts an array of groups into a title string.
-
-**post-a-triple-a-title** calls `namer.name`, then passes the result to `assembleGroupsIntoTitle`, then posts it to Twitter.
-
+**post-a-triple-a-title** calls creates a namer with that module, calls `namer.name`, then passes the result to `assembleGroupsIntoTitle`, then posts it to Twitter.
 
 License
 -------
