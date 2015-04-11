@@ -28,7 +28,7 @@
     "probable": "^1.4.0",
     "seedrandom": "^2.3.11",
     "titlecase": "^1.0.2",
-    "triple-a-namer": "^1.0.0",
+    "triple-a-namer": "^1.0.1",
     "twit": "^1.1.20"
   }
 }
